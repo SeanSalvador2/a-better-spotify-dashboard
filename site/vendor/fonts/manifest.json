@@ -1,0 +1,65 @@
+[
+ {
+  "family": "Bricolage Grotesque",
+  "weight": "400",
+  "style": "normal",
+  "file": "bricolage-400.woff2",
+  "bytes": 76888
+ },
+ {
+  "family": "Bricolage Grotesque",
+  "weight": "600",
+  "style": "normal",
+  "file": "bricolage-600.woff2",
+  "bytes": 76888
+ },
+ {
+  "family": "Bricolage Grotesque",
+  "weight": "800",
+  "style": "normal",
+  "file": "bricolage-800.woff2",
+  "bytes": 76888
+ },
+ {
+  "family": "JetBrains Mono",
+  "weight": "500",
+  "style": "normal",
+  "file": "jbmono-500.woff2",
+  "bytes": 31432
+ },
+ {
+  "family": "JetBrains Mono",
+  "weight": "700",
+  "style": "normal",
+  "file": "jbmono-700.woff2",
+  "bytes": 31432
+ },
+ {
+  "family": "Manrope",
+  "weight": "400",
+  "style": "normal",
+  "file": "manrope-400.woff2",
+  "bytes": 24836
+ },
+ {
+  "family": "Manrope",
+  "weight": "500",
+  "style": "normal",
+  "file": "manrope-500.woff2",
+  "bytes": 24836
+ },
+ {
+  "family": "Manrope",
+  "weight": "600",
+  "style": "normal",
+  "file": "manrope-600.woff2",
+  "bytes": 24836
+ },
+ {
+  "family": "Manrope",
+  "weight": "700",
+  "style": "normal",
+  "file": "manrope-700.woff2",
+  "bytes": 24836
+ }
+]

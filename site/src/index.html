@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Soundprint — Your Listening, After Dark</title>
+<!-- INLINE:fonts -->
+<!-- INLINE:styles -->
+</head>
+<body>
+<!-- Loading splash -->
+<div id="splash" class="splash">
+  <div class="splash-inner">
+    <div class="splash-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M6 8v8"/><path d="M18 6v12"/><path d="M3 11v2"/><path d="M21 10v4"/></svg>
+    </div>
+    <div class="splash-word">Soundprint</div>
+    <div class="splash-sub" id="splash-sub">Decoding your listening history…</div>
+    <div class="splash-track"><div class="splash-bar" id="splash-bar"></div></div>
+  </div>
+</div>
+
+<div id="app" class="app" hidden>
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M6 8v8"/><path d="M18 6v12"/><path d="M3 11v2"/><path d="M21 10v4"/></svg>
+      </div>
+      <span class="brand-name">Soundprint</span>
+    </div>
+
+    <div class="profile" id="profile">
+      <div class="profile-avatar" aria-hidden="true">S</div>
+      <div class="profile-meta">
+        <div class="profile-name">Sean</div>
+        <div class="profile-stat" id="profile-plays">— plays</div>
+        <div class="profile-stat profile-span" id="profile-span">—</div>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav" aria-label="Sections"></nav>
+
+    <div class="sidebar-foot">
+      <div class="foot-dot"></div>
+      <span id="foot-note">Local · offline</span>
+    </div>
+  </aside>
+
+  <!-- Main column -->
+  <div class="main">
+    <!-- Sticky global filter bar -->
+    <header class="filterbar" id="filterbar"></header>
+    <!-- Active filter chips -->
+    <div class="activebar" id="activebar" hidden></div>
+    <!-- Routed content -->
+    <main class="content" id="content" tabindex="-1"></main>
+  </div>
+
+  <!-- Mobile bottom tab bar (stub, hidden ≥768) -->
+  <nav class="bottombar" id="bottombar" aria-label="Sections (mobile)"></nav>
+</div>
+
+<!-- INLINE:data -->
+<!-- INLINE:vendor -->
+<!-- INLINE:js -->
+</body>
+</html>

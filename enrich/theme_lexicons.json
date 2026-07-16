@@ -1,0 +1,15 @@
+{
+  "_doc": "Theme keyword lexicons for lyric-derived stats. STANDALONE, MAINTAINABLE. Each theme lists lowercase keywords/phrases; a track gets the theme flag when the count of lexicon-word occurrences in its (lowercased) lyrics meets 'min_hits'. Multi-word phrases are matched as substrings; single tokens are matched on word boundaries. Tune per genre; defaults tuned for a country-heavy library.",
+  "min_hits": 2,
+  "themes": {
+    "love": ["love", "in love", "i love you", "my baby", "sweetheart", "darling", "kiss", "kissing", "hold you", "holding you", "forever", "my heart", "fall in love", "falling for you", "be mine", "hold me", "your love", "loving you", "arms around", "heart beats"],
+    "heartbreak": ["heartbreak", "heartbroken", "broken heart", "breakup", "break up", "broke up", "goodbye", "leaving", "she left", "you left", "left me", "cry", "crying", "tears", "lonely", "alone", "miss you", "missing you", "used to", "moving on", "getting over", "hurt", "gone", "without you", "cheating", "cheated"],
+    "drinking_partying": ["whiskey", "whisky", "beer", "bourbon", "tequila", "drink", "drinking", "drunk", "bar", "barstool", "shots", "shot of", "wine", "buzz", "party", "partying", "hangover", "cold beer", "liquor", "bottle", "bud light", "jack daniels", "moonshine", "cheers", "dance floor", "club", "get high", "smoke", "joint", "cigarette"],
+    "trucks_roads_driving": ["truck", "pickup", "chevy", "ford", "tailgate", "driving", "drive", "highway", "backroad", "back road", "dirt road", "gravel", "the road", "wheels", "tires", "gas", "miles", "interstate", "county line", "car", "riding", "cruise", "engine", "diesel", "tank"],
+    "small_town_home": ["small town", "hometown", "home town", "back home", "my town", "front porch", "porch", "farm", "field", "cornfield", "dirt", "county", "country roads", "grew up", "raised", "mama", "daddy", "grandpa", "grandma", "church pew", "main street", "back to", "where i'm from", "home"],
+    "faith": ["god", "jesus", "lord", "pray", "prayer", "praying", "amazing grace", "heaven", "angel", "church", "faith", "believe", "gospel", "hallelujah", "amen", "the good lord", "hymn", "blessed", "salvation", "cross", "holy"],
+    "money": ["money", "cash", "dollar", "dollars", "rich", "broke", "bills", "paycheck", "paid", "gold", "diamond", "diamonds", "hundred", "millions", "million", "bank", "spend", "spending", "wealth", "rent", "check", "penny", "dime"],
+    "night": ["night", "midnight", "tonight", "moon", "moonlight", "stars", "starlight", "dark", "sunset", "sundown", "late night", "neon", "streetlight", "headlights", "dream", "asleep", "sleep", "up all night", "3am", "2am"],
+    "summer": ["summer", "summertime", "sunshine", "sun", "beach", "ocean", "lake", "river", "creek", "hot", "heat", "june", "july", "august", "tan", "swimming", "swim", "bonfire", "fireflies", "watermelon", "warm night", "poolside"]
+  }
+}

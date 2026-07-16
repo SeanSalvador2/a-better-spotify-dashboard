@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# Soundprint — keep the repo to source only. Everything a build produces or
+# caches, and anyone's private listening data, stays out.
+# ---------------------------------------------------------------------------
+
+# Your private Spotify export (NEVER commit this)
+data/
+*my_spotify_data*.zip
+**/Spotify Extended Streaming History/
+
+# Build output + work directory (default: ./build)
+build/
+soundprint.html
+Soundprint.html
+
+# Generated datasets (regenerated from your export on every build)
+dataset.json
+dataset.json.gz
+enrichment.json
+enrichment.json.gz
+site/dataset.json*
+site/enrichment.json*
+docs/_stats.json
+_stats/
+
+# Enrichment caches + intermediates (resumable; large)
+enrich_raw/
+enrich_out/
+**/cache/
+logs/
+
+# Fetched-on-build vendor libraries (GSAP — see VENDOR_LICENSES.md)
+site/vendor/gsap.min.js
+site/vendor/ScrollTrigger.min.js
+
+# Node / Playwright (only needed for the optional smoke tests)
+node_modules/
+site/node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

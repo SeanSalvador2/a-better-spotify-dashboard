@@ -1,0 +1,11 @@
+# Soundprint — Python dependencies
+#
+# The core pipeline (build_dataset.py, site/build.py) and most enrichment steps
+# use only the Python 3.9+ standard library. The single third-party dependency is
+# vaderSentiment, used to score lyric sentiment in the LRCLIB step.
+#
+#   python -m pip install -r requirements.txt
+#
+# If you only run with --skip-enrich you don't strictly need anything here.
+
+vaderSentiment==3.3.2
